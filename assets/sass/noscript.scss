@@ -6,51 +6,25 @@
 @import 'libs/html-grid';
 
 /*
-	Astral by HTML5 UP
+	Helios by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Wrapper */
+/* Carousel */
 
-	#wrapper {
-		opacity: 1 !important;
+	.carousel {
+		overflow-x: auto;
 	}
 
-/* Nav */
+/* Header */
 
-	#nav {
-		a {
-			opacity: 1.0;
-
-			&:before,
-			&:after {
-				display: none;
-			}
-
-			span {
-				top: 0;
-				opacity: 1.0;
-
+	body.homepage {
+		&.is-preload {
+			#header {
 				&:after {
-					display: none;
+					opacity: 0;
 				}
-			}
-		}
-	}
-
-/* Main */
-
-	#main {
-		background: none;
-		box-shadow: none;
-
-		> .panel {
-			background: #ffffff;
-			margin-bottom: 2em;
-
-			&:last-child {
-				margin-bottom: 0;
 			}
 		}
 	}
