@@ -2180,7 +2180,7 @@ input, select, textarea {
 	}
 
 	header.major {
-		margin: 0 0 4em 0;
+		margin: 0 0 2em 0;
 		position: relative;
 		text-align: center;
 	}
@@ -3139,7 +3139,7 @@ input, select, textarea {
 		}
 
 		.spotlight.style1 .content {
-			border-color: #e44c65;
+			border-color: gold;
 		}
 
 		.spotlight.style2 .content {
@@ -3197,7 +3197,7 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0 4em 0;
+		padding: 2em 0 4em 0;
 	}
 
 		.wrapper.style2 {
