@@ -72,6 +72,12 @@ input, select, textarea {
 	appearance: none;
 }
 
+.myIcons {
+	width: 64px;
+	height: 64px;
+	display: block;
+}
+
 /* Basic */
 
 	html {
@@ -2640,6 +2646,10 @@ input, select, textarea {
 		margin-left: -1em;
 		padding-left: 0;
 	}
+
+		ul.actions.wrap{
+			flex-wrap: wrap;
+		}
 
 		ul.actions li {
 			padding: 0 0 0 1em;
