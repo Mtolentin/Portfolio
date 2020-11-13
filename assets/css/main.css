@@ -37,6 +37,14 @@ ol, ul {
 	list-style: none;
 }
 
+ul.bull{
+	list-style-type: circle;
+}
+
+ul.bull > li{
+	text-align: left;
+}
+
 blockquote, q {
 	quotes: none;
 }
